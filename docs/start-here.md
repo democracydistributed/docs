@@ -31,19 +31,19 @@ On [democracydistributed.com](https://democracydistributed.com), the **City of T
 
 Hundreds of Toronto council decisions are already linked to the projects they authorized.
 
-## Two products, one data model
+## Three products, one data model
 
 - **WikiGov** is the public transparency layer: governments, open to everyone, built up by contributors.
 - **POD** (People Organized Digitally) is the same structure, turned into a tool for community groups to decide and spend together. Tenant groups, co-ops and neighbourhood associations would get the same transparency we ask of governments.
+- **The Contributor Network** (working name) is the engine under both: the people who link, verify, and add what official sources leave out. Without them, DD is an empty database.
 
 ## Where to go next
 
 | I want to… | Go to |
 |---|---|
-| Understand the idea better | Understand → The chain of accountability |
-| See a worked example | Understand → Reference scenarios |
-| Use the site | Use → Reading an org page |
-| Look at the data model or API | Build |
-| Help out | [CONTRIBUTING.md](../CONTRIBUTING.md) |
-
-*Links will be added as pages go live.*
+| Understand the idea | [What is DD?](understand/what-is-dd.md) |
+| See how the chain works | [The chain of accountability](understand/chain-of-accountability.md) |
+| See how people build DD | [The Contributor Network](understand/contributor-network.md) |
+| Learn the vocabulary | [Key concepts](understand/key-concepts.md) |
+| Use the data | [API reference](build/api-reference.md) |
+| Help out | [How to help](contribute/how-to-help.md) |
