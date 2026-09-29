@@ -20,6 +20,6 @@ Because DD deals with government and public decisions:
 
 ## Reporting
 
-If you experience or witness unacceptable behaviour, contact **[DD contact email — to be added]**. All reports are reviewed promptly and kept as confidential as possible.
+If you experience or witness unacceptable behaviour, contact the project lead, **Ajay Matharoo**, at **ajaymatharoo11@gmail.com** or by direct message on the Civic Tech Toronto Slack. All reports are reviewed promptly and kept as confidential as possible.
 
 Enforcement follows the Contributor Covenant's [enforcement guidelines](https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines): correction, warning, temporary ban, then permanent ban, depending on severity.

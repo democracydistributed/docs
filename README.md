@@ -5,8 +5,8 @@
 Democracy Distributed (DD) is an open civic data platform that connects government **money → decisions → outcomes** in one place. Our first city is **Toronto**.
 
 - 🌐 **Live site:** [democracydistributed.com](https://democracydistributed.com)
-- 📖 **Read the docs:** [docs site link — coming soon]
 - 🙋 **Want to help?** Start with [CONTRIBUTING.md](CONTRIBUTING.md)
+- 💬 **Chat:** [#proj-democracydistributed](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack ([join](https://join.slack.com/t/civictechto/shared_invite/zt-4bf2j3rf8-LV5FBBR4U0R6nKIHmIcitw))
 
 ---
 
@@ -16,11 +16,12 @@ This repository holds DD's **public documentation**: what the project is, how th
 
 The application code is not public yet. Until it is, this repo is the front door to the project.
 
-## Two products, one data model
+## Three products, one data model
 
 | | What it is | Status |
 |---|---|---|
 | **WikiGov** | A public, Wikipedia-style record of government finances, decisions, and projects, with an interactive "follow the money" Sankey chart. | Live for Toronto |
+| **The Contributor Network** *(working name)* | The engine under both: the people who link, verify, and add what official sources leave out, plus the tools, review, and credit behind their work. | Being designed |
 | **POD** (People Organized Digitally) | A tool for community groups to decide, spend, and report transparently, on the same data model governments use. | Vision stage |
 
 ## Where things are
@@ -39,4 +40,4 @@ The docs change the way laws do: anyone can **propose** a change, a reviewer **a
 
 ## License
 
-Documentation is licensed under [CC BY-SA 4.0](LICENSE). You're free to share and adapt it, with credit, under the same license.
+Documentation is dedicated to the public domain under [CC0 1.0](LICENSE). You're free to copy, adapt, and reuse it for any purpose, with no permission needed. Credit is appreciated but not required.

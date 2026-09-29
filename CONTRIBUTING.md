@@ -12,7 +12,7 @@ Thanks for being here. DD is built by volunteers, and every contribution counts,
 | Write or design | Improve a guide, or make a diagram clearer |
 | Code | Ask about the application. The code isn't public yet, but we're happy to talk. |
 
-Open tasks are listed on the [Contribute → Open jobs](docs/) page. [Link to be added once the docs site is live.]
+Open tasks are listed on the [How to help](docs/contribute/how-to-help.md) page.
 
 ## How to propose a change (no coding needed)
 
@@ -49,6 +49,8 @@ This repo is public, including its history. Never add:
 ## Questions?
 
 - **Meet us:** Civic Tech Toronto hacknights, Tuesdays ([civictech.ca](https://civictech.ca))
-- **Contact:** [DD contact email — to be added]
+- **Chat:** [#proj-democracydistributed](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack (new to the Slack? [join here](https://join.slack.com/t/civictechto/shared_invite/zt-4bf2j3rf8-LV5FBBR4U0R6nKIHmIcitw))
+- **Email:** [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com)
+- **Docs issues:** [open an issue](https://github.com/democracydistributed/docs/issues) on this repo
 
 Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) in every space where DD works.
