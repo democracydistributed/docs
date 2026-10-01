@@ -1,6 +1,6 @@
 # Contributing to Democracy Distributed
 
-Thanks for being here. DD is built by volunteers, and every contribution counts, from fixing a typo to adding a new city.
+Thanks for being here. DD is an open project that depends on people like you, and every contribution counts, from fixing a typo to adding a new city.
 
 ## Ways to help
 
@@ -12,7 +12,7 @@ Thanks for being here. DD is built by volunteers, and every contribution counts,
 | Write or design | Improve a guide, or make a diagram clearer |
 | Code | Ask about the application. The code isn't public yet, but we're happy to talk. |
 
-Open tasks are listed on the [How to help](docs/contribute/how-to-help.md) page.
+Open tasks are listed on the [Get involved](docs/contribute/get-involved.md) page.
 
 ## How to propose a change (no coding needed)
 
@@ -35,6 +35,7 @@ That's the whole process. It works like a bill: **proposed → reviewed → enac
 
 - **Plain markdown only.** No platform-specific blocks, so the docs stay portable.
 - **Cite your sources.** Any number or claim about a government links to where it came from. If we don't know something, we say so. We never estimate or invent data to fill a gap.
+- **Don't overclaim.** Say what DD hopes to do, not what it has already achieved. Write "who we're building for", never "who uses DD", until it's true.
 - **Plain language.** Write for a curious resident, not a policy expert. Explain jargon the first time you use it.
 - **One topic per page.** Link to other pages instead of repeating them.
 
@@ -48,9 +49,8 @@ This repo is public, including its history. Never add:
 
 ## Questions?
 
-- **Meet us:** Civic Tech Toronto hacknights, Tuesdays ([civictech.ca](https://civictech.ca))
-- **Chat:** [#proj-democracydistributed](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack (new to the Slack? [join here](https://join.slack.com/t/civictechto/shared_invite/zt-4bf2j3rf8-LV5FBBR4U0R6nKIHmIcitw))
-- **Email:** [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com)
+- **Email (best for now):** [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com)
 - **Docs issues:** [open an issue](https://github.com/democracydistributed/docs/issues) on this repo
+- **Slack:** [#proj-democracydistributed](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack (quiet for now)
 
 Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) in every space where DD works.
