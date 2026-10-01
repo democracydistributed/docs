@@ -120,4 +120,4 @@ It also includes `counts` for totals. Use `limit` to cap the officials list.
 - Revenue-side trace: linking tax and fee revenue to the by-law that authorizes it
 - Year filtering on `/sankey`
 
-**Questions or ideas?** See [How to help](../contribute/how-to-help.md).
+**Questions or ideas?** See [Get involved](../contribute/get-involved.md).

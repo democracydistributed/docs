@@ -1,54 +1,37 @@
 # The Contributor Network
 
-*Working name.*
+The Contributor Network is DD's microtask layer: small, meaningful pieces of work that connect people who care about the same things, while they do that work together.
 
-The Contributor Network is the people who build DD, and the tools that let them do it. It's the engine under both other products:
+It's the engine under both other products:
 
-- **WikiGov** only knows what contributors link, verify, and add.
-- **POD** only works if members show up, propose, vote, and do the work.
+- **WikiGov** can only know what people link, check, and add.
+- **POD** groups only move forward when people pick up the work, and sometimes they need help from outside the group.
 
-Without contributors, DD is an empty database. With them, it's a living public record.
+**Status:** being designed. Today, the data is gathered and linked by the core team. The tools for anyone to contribute on the site come next.
 
-**Status:** being designed. Today, contributions come from volunteers working directly with the project. The tools to contribute on the site itself come next.
+## Why it matters
 
-## Why DD needs people, not just scrapers
+DD exists for two reasons: to build a shared understanding of how things work, and to help people join forces to change what isn't working. The Contributor Network is where both happen.
 
-Official sources publish the two ends of the story: the **decision** and, sometimes, the **reported result**. The middle is rarely published anywhere: which contract, which payment, whether the thing was delivered.
+- **Understanding needs people.** In the data we've worked with so far, official sources tend to publish a decision and sometimes a result, but rarely what happened in between. Scraping can't fill that gap. People can: the resident who walks past the site, the researcher who knows where to look, the member who was at the meeting.
+- **Joining forces needs a way to find each other.** Someone who cares about a park, a by-law, or a budget line is rarely the only one. The aim is that you can see the others: who commented on the same decision, who upvoted the same idea, who worked on the same project. You can find them by the issue, the neighbourhood, or the organization you care about, or by the skills you share.
 
-No amount of scraping fills that gap. People do: the resident who walks past the site, the researcher who knows where to look, the member who was at the meeting.
+Small interactions, repeated, are how strangers become collaborators.
 
-## Six ways to contribute
+## Where tasks come from
 
-Every gap on DD is one of six kinds of task:
+- **WikiGov:** a missing link in a chain, like a payment with no decision attached or a role with no holder recorded
+- **POD groups:** a community group posting a task it needs help with, such as research, design, or a pair of hands on the weekend
+- **DD itself:** the project's own teams posting work, from writing a post to interviewing residents → [Get involved](../contribute/get-involved.md)
 
-| # | Task | Example |
-|---|---|---|
-| 1 | **Link two records** | Connect a payment to the council decision that authorized it |
-| 2 | **Fill in a detail** | Add who holds a position, or a project's status |
-| 3 | **Transcribe a document** | Enter a decision or contract from a PDF |
-| 4 | **Flag or correct** | "This amount looks wrong, and here's the source" |
-| 5 | **Report from the ground** | "The park path was resurfaced. I walked it today." |
-| 6 | **Create something new** | Write a plain-language summary of what a decision did |
+## Ways to take part
 
-Tasks 1–4 make DD more complete than any single official source. Tasks 5 and 6 add knowledge that **exists nowhere else**.
+From a few seconds to a few weeks, across WikiGov, POD, and DD itself:
 
-## How it works
+- **React:** upvote an idea or a concern you share
+- **Discuss:** comment on a decision, a project, or a task
+- **Share what you know:** add a source, a correction, or what you saw on the ground
+- **Pick up a task:** a small, well-defined piece of work
+- **Own a Job:** a bigger piece of work with a clear scope, like adding a new year of data or bringing DD to a new city
 
-1. **Gaps become tasks.** When a chain has a missing link, DD shows exactly what's missing, so every gap is a ready-made task.
-2. **The platform helps you search.** For linking tasks, DD suggests likely matches and explains why, so you confirm rather than hunt.
-3. **Every contribution cites a source.** No source, no change.
-4. **Every contribution is reviewed** before it goes live.
-5. **Credit is permanent.** Your contributions stay attributed to you on the public record.
-
-## Rules the network runs on
-
-- **Credit on approval, not on submission.** Quality over volume.
-- **Nothing is deleted, only superseded.** The full history stays public.
-- **Facts, not accusations.** Contributors document what records show. They don't judge people.
-- **Import before asking.** If a script can load the data, volunteers are never asked to type it by hand. People's time goes to what only people can do.
-
-## Bigger jobs
-
-Some work is larger than one gap, like adding a new year of data or bringing DD to a new city. These are posted as **Jobs**, with a clear scope, so a few people can own them while many others help.
-
-**Get involved:** [How to help →](../contribute/how-to-help.md)
+**Next:** [Get involved →](../contribute/get-involved.md)
