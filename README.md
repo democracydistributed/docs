@@ -1,42 +1,38 @@
 # Democracy Distributed — Documentation
 
-**Can you trace public money from the decision that authorized it to what it actually built?**
-
-Democracy Distributed (DD) is an open civic data platform that connects government **money → decisions → outcomes** in one place. Our first city is **Toronto**.
+**DD helps people see how the groups that shape their lives, from city hall to their workplace, actually make decisions and spend money, and gives them a way to work together to change what isn't working.**
 
 - 🌐 **Live site:** [democracydistributed.com](https://democracydistributed.com)
-- 🙋 **Want to help?** Start with [CONTRIBUTING.md](CONTRIBUTING.md)
-- 💬 **Chat:** [#proj-democracydistributed](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack ([join](https://join.slack.com/t/civictechto/shared_invite/zt-4bf2j3rf8-LV5FBBR4U0R6nKIHmIcitw))
+- 📖 **Start here:** [What is Democracy Distributed?](docs/what-is-dd.md)
+- 🙋 **Get involved:** [ways to help](docs/contribute/get-involved.md)
+- ✉️ **Get in touch:** [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com). Feedback is always welcome.
 
 ---
 
-## What's in this repo
-
-This repository holds DD's **public documentation**: what the project is, how the data model works, how to use the site, and how to contribute. Every page is a plain markdown file in [`docs/`](docs/).
-
-The application code is not public yet. Until it is, this repo is the front door to the project.
-
 ## Three products, one data model
 
-| | What it is | Status |
+| Product | Purpose | Status |
 |---|---|---|
-| **WikiGov** | A public, Wikipedia-style record of government finances, decisions, and projects, with an interactive "follow the money" Sankey chart. | Live for Toronto |
-| **The Contributor Network** *(working name)* | The engine under both: the people who link, verify, and add what official sources leave out, plus the tools, review, and credit behind their work. | Being designed |
-| **POD** (People Organized Digitally) | A tool for community groups to decide, spend, and report transparently, on the same data model governments use. | Vision stage |
+| **[WikiGov](docs/understand/wikigov.md)** | **Understand together.** A public record of how governments work: their structure, rules, decisions, money, and people, and how it all connects. | Live for Toronto |
+| **[POD](docs/understand/pod.md)** (People Organized Digitally) | **Organize your own world.** The same principles applied to your group, workplace, or project. | Vision stage |
+| **[The Contributor Network](docs/understand/contributor-network.md)** | **Act together.** The microtask layer, where people who care about the same things find each other while doing the work. | Being designed |
 
-## Where things are
+## What's in this repo
 
-| Section | For |
+This repository holds DD's **public documentation**. Every page is a plain markdown file in [`docs/`](docs/).
+
+| Section | What's there |
 |---|---|
-| [Start here](docs/start-here.md) | Everyone. DD in 2 minutes. |
-| Understand | The vision, key concepts, and example scenarios |
-| Use | Guides for reading an org page, logging a payment, and more |
-| Build | Architecture, data model, and API reference |
-| Contribute | How to help, open tasks, roadmap, and decisions |
+| [What is DD?](docs/what-is-dd.md) | The idea, the problem, and who we're building for |
+| **Understand** | [The chain of accountability](docs/understand/chain-of-accountability.md), [WikiGov](docs/understand/wikigov.md), [POD](docs/understand/pod.md), [The Contributor Network](docs/understand/contributor-network.md) |
+| **Build** | [Key concepts](docs/build/key-concepts.md), [API reference](docs/build/api-reference.md) |
+| **Contribute** | [Get involved](docs/contribute/get-involved.md) |
 
-## How these docs are governed
+The application code isn't public yet.
 
-The docs change the way laws do: anyone can **propose** a change, a reviewer **approves** it, and the full **history** stays public. Nothing is deleted, only superseded. See [CONTRIBUTING.md](CONTRIBUTING.md).
+## Suggesting changes
+
+Anyone can propose a change to these docs, and the full history stays public. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
