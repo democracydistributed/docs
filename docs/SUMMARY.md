@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is Democracy Distributed?](what-is-dd.md)
+* [What is Democracy Distributed?](README.md)
 
 ## Understand
 
