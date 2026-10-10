@@ -17,3 +17,4 @@
 ## Contribute
 
 * [Get involved](contribute/get-involved.md)
+* [Suggestions and feedback](contribute/suggestions-and-feedback.md)

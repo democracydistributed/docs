@@ -16,7 +16,7 @@ https://app.democracydistributed.com/api/gateway
 - All responses are JSON.
 - IDs are long numeric strings, e.g. `388481829130272769`.
 - A field with no data returns `null`. Fields are never left out.
-- CORS is open, so you can call the API from a browser.
+- Calling the API directly from a browser doesn't currently work: its CORS headers are misconfigured, so browsers block the response. Call it from a server or script, or proxy it through your own backend, which is what DD's website does.
 
 ## Endpoints
 
@@ -31,6 +31,7 @@ https://app.democracydistributed.com/api/gateway
 | `GET /projects` | An organization's projects | `orgId` |
 | `GET /project` | One project | `projectId` |
 | `GET /people` | An organization's officials and members | `orgId`, optional `limit` |
+| `GET /suggestions` | An organization's suggestions | `orgId` |
 
 ## Examples
 
@@ -113,6 +114,28 @@ Returns two lists:
 - `members`: people who have joined the organization on DD
 
 It also includes `counts` for totals. Use `limit` to cap the officials list.
+
+### `GET /suggestions`
+
+```json
+{
+  "suggestions": [
+    {
+      "suggestionId": "517242478890516481",
+      "text": "The 2024 parks budget total doesn't match the city's published figure.",
+      "category": "This data looks wrong",
+      "status": "New",
+      "createdAt": "2026-10-09T18:22:41Z"
+    }
+  ]
+}
+```
+
+*Sample data for illustration.*
+
+- Who left a suggestion is never included.
+- Older suggestions may have `null` for `category` and `status`.
+- How to leave one: see [Suggestions and feedback](../contribute/suggestions-and-feedback.md).
 
 ## Planned
 

@@ -6,7 +6,7 @@ DD is an early, open project, and we're always looking for feedback and for peop
 
 DD starts from a simple idea: the way governments and groups make decisions and spend money feels distant and hard to follow, so most people tune out. DD's answer is one shared way to record how any organization works, so anyone can see how it all connects, and a way for people who care about the same things to find each other and act together.
 
-We'd love to hear what you think, whether it's "I'd use this", "I'd do it differently", or "here's what's missing". Feedback shapes where DD goes next.
+We'd love to hear what you think, whether it's "I'd use this", "I'd do it differently", or "here's what's missing". Feedback shapes where DD goes next. Use the **Feedback** link at the bottom of any page. See [Suggestions and feedback](suggestions-and-feedback.md).
 
 ## Why volunteer with DD?
 
