@@ -9,6 +9,10 @@
 * [POD](understand/pod.md)
 * [The Contributor Network](understand/contributor-network.md)
 
+## Use
+
+* [Reading the money chart](use/reading-the-sankey.md)
+
 ## Contribute
 
 * [Get involved](contribute/get-involved.md)
@@ -17,4 +21,6 @@
 ## Build
 
 * [Key concepts](build/key-concepts.md)
+* [Architecture overview](build/architecture-overview.md)
+* [The money chart (Sankey)](build/sankey.md)
 * [API reference](build/api-reference.md)
