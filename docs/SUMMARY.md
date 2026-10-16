@@ -11,7 +11,7 @@
 
 ## Use
 
-* [Reading the money chart](use/reading-the-sankey.md)
+* [Reading the Sankey (Financial Visualization)](use/reading-the-sankey.md)
 
 ## Contribute
 
@@ -22,5 +22,5 @@
 
 * [Key concepts](build/key-concepts.md)
 * [Architecture overview](build/architecture-overview.md)
-* [The money chart (Sankey)](build/sankey.md)
+* [The Sankey (Financial Visualization)](build/sankey.md)
 * [API reference](build/api-reference.md)
