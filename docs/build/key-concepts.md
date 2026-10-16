@@ -7,6 +7,7 @@ A plain-language glossary of the building blocks DD uses to describe any organiz
 | Concept | Meaning |
 |---|---|
 | **Organization** | Any body that decides and spends: a city, a department, an agency, a board, or a community group. Organizations can sit inside other organizations. |
+| **Department** | A unit inside an organization that does part of its work, such as Toronto Water inside the City of Toronto. It uses the organization's money and staff but doesn't own them, so it has no account of its own. |
 | **Jurisdiction** | The geographic area an organization serves: city, province, or country. |
 | **Position** | A role within an organization, such as "City Manager" or "Ward 14 Councillor". Positions stay the same while people change. |
 | **Position Term** | Who held a position, and from when to when. |
@@ -19,6 +20,7 @@ A plain-language glossary of the building blocks DD uses to describe any organiz
 |---|---|
 | **Constitution** | A set of rules: a by-law, an act, a motion, or a community group's own rules. |
 | **Amendment** | A change to a Constitution (insert, modify, or repeal), made by a decision. Rules change through Amendments, and the history is kept. |
+| **Constitution Connector** | Who a Constitution applies to: which organizations or positions it covers, and which other rules it relates to. |
 
 ## Decisions
 
@@ -29,6 +31,8 @@ A plain-language glossary of the building blocks DD uses to describe any organiz
 | **Meeting** | When and where Items are decided. |
 | **Vote** | The decision on an Item: the result and, where recorded, who voted which way. |
 | **Decision Outcome** | What a decision produced, in plain words, e.g. "Contract awarded to ABC Paving for $45,000." |
+| **Election** | How people are chosen to hold a position. |
+| **Candidate** | A person standing in an Election. |
 
 ## Money
 
@@ -49,5 +53,6 @@ A plain-language glossary of the building blocks DD uses to describe any organiz
 | **Procurement Request** | A formal call for bids (RFQ, RFP, and so on) linked to a project. |
 | **Bid** | A vendor's response to a Procurement Request. |
 | **Job** | A task within a project, and on DD also a task for contributors. |
+| **Reputation Event** | A record that credits someone for a contribution on DD, such as completing a Job. Together these build their public track record. |
 
 **Next:** [The chain of accountability →](../understand/chain-of-accountability.md)
