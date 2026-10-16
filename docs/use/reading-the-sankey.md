@@ -1,4 +1,4 @@
-# Reading the money chart
+# Reading the Sankey (Financial Visualization)
 
 Every organization page on WikiGov opens on its **Finances** tab: one chart showing where the organization's money comes from and where it goes. This page explains how to read it.
 
