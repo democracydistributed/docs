@@ -1,4 +1,4 @@
-# The money chart (Sankey)
+# The Sankey (Financial Visualization)
 
 How the money chart on an organization page is built, how its trace finds the decision behind a payment, and the design rules anyone changing either should know. For how to *read* the chart, see [Reading the money chart](../use/reading-the-sankey.md).
 
