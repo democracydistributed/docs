@@ -7,6 +7,7 @@ A plain-language glossary of the building blocks DD uses to describe any organiz
 | Concept | Meaning |
 |---|---|
 | **Organization** | Any body that decides and spends: a city, a department, an agency, a board, or a community group. Organizations can sit inside other organizations. |
+| **Organization type** | What kind of body an organization is. *Community Group* and *DD Government* are treated as community (native) organizations; every other type is treated as government (observed). See [Architecture overview](architecture-overview.md#how-the-web-app-tells-them-apart). |
 | **Department** | A unit inside an organization that does part of its work, such as Toronto Water inside the City of Toronto. It uses the organization's money and staff but doesn't own them, so it has no account of its own. |
 | **Jurisdiction** | The geographic area an organization serves: city, province, or country. |
 | **Position** | A role within an organization, such as "City Manager" or "Ward 14 Councillor". Positions stay the same while people change. |

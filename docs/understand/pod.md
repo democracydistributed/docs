@@ -64,6 +64,8 @@ Very little money is truly solo: couples, families, roommates, and side-project 
 
 POD isn't a separate system. It's the same data model WikiGov uses for cities. A tenant group and a city council are recorded the same way, so the skills, tools, and transparency carry over from one to the other.
 
+In the web app, community groups already appear with their own layout: Suggestions and Rules tabs alongside the usual Items, Projects, Finances and People. → [How the web app tells them apart](../build/architecture-overview.md#how-the-web-app-tells-them-apart)
+
 DD itself is meant to be the first POD group, running its own teams and decisions this way. → [Get involved](../contribute/get-involved.md)
 
 **Next:** [The Contributor Network →](contributor-network.md)
