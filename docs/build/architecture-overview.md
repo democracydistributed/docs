@@ -26,6 +26,20 @@ WikiGov and POD use the same records: Suggestion → Item → Vote → Project �
 
 Which direction a record belongs to follows from its organization: records under a government are observed, and records under a community group are native. There's no separate flag on each record. Because the shapes are the same, features like the money chart work for both.
 
+### How the web app tells them apart
+
+The web app decides which direction to show from the organization's **type**:
+
+- **Community Group** and **DD Government** (DD's own internal bodies, such as DD Central Government) get the community layout.
+- Every other type, including a missing one, gets the government layout.
+
+| | Government layout | Community layout |
+|---|---|---|
+| **Tabs** | Finances, Items, Projects, People | Suggestions, Items, Projects, Finances, Rules, People |
+| **Accent colour** | Amber | Teal |
+
+The Suggestions tab is currently hidden rather than blocked for governments: the server accepts a suggestion for any organization. The Rules tab is a placeholder for now.
+
 See [Key concepts](key-concepts.md) for what each record type means.
 
 **Next:** [The money chart (Sankey) →](sankey.md)
