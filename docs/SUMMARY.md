@@ -17,6 +17,7 @@
 
 * [Get involved](contribute/get-involved.md)
 * [Suggestions and feedback](contribute/suggestions-and-feedback.md)
+* [Adding financial data](contribute/adding-data.md)
 
 ## Build
 

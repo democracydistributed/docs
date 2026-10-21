@@ -1,0 +1,6 @@
+# Never commit sign-in tokens or run output
+config.json
+config-backup.json
+*.log
+*log*.txt
+__pycache__/

@@ -1,0 +1,20 @@
+{
+  "base_url": "https://app.democracydistributed.com",
+  "bearer_token": "",
+  "namespace_handle": "DD",
+  "rate_limit_seconds": 0.2,
+  "stop_on_error": true,
+  "skip_empty_values": true,
+  "module_handle": "Budget_Category",
+  "csv_path": "your-file.csv",
+  "reference_lookups": {
+    "Parent_Budget_Category": {
+      "module": "Budget_Category",
+      "match_field": "Budget_Category_Number"
+    },
+    "Legal_Basis": {
+      "module": "Constitution",
+      "match_field": "Name"
+    }
+  }
+}
