@@ -28,7 +28,7 @@ This repository holds DD's **public documentation**. Every page is a plain markd
 | **Build** | [Key concepts](docs/build/key-concepts.md), [API reference](docs/build/api-reference.md) |
 | **Contribute** | [Get involved](docs/contribute/get-involved.md) |
 
-The application code isn't public yet.
+The [`tools/`](tools/) folder holds small helpers for contributors, such as the [Corteza CSV importer](tools/corteza-csv-importer/) used to add data in bulk. The application code isn't public yet.
 
 ## Suggesting changes
 
