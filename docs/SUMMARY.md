@@ -25,3 +25,4 @@
 * [Architecture overview](build/architecture-overview.md)
 * [The Sankey (Financial Visualization)](build/sankey.md)
 * [API reference](build/api-reference.md)
+* [Caching](build/caching.md)
