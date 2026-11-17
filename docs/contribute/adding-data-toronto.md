@@ -18,7 +18,6 @@ Your job is to produce one simple list. Every row answers five questions:
 | When? | `Date` | 2025-12-31 (last day of the fiscal year) |
 | How do we know? | `Description` | Names the source, the line code and the column |
 
-You are not analysing anything. You are copying numbers from a published document into rows, and putting each row in the right box. The chart does the rest.
 
 ## A sample you can copy
 
