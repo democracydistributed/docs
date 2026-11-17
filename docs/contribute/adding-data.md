@@ -20,25 +20,7 @@ DD stores data in **Corteza**, an open-source database with an admin screen. The
 
 So adding a year of spending means: create the category tree, then one Transaction per lowest category.
 
-## Before you start
-
-1. **Create a Corteza account.** [Sign up here](https://app.democracydistributed.com/auth/signup). A new account gets basic access: you can browse the data, but not add to it yet.
-2. **Ask for data-entry access.** Email [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com) with the email you signed up with. You'll be given a role that can create Budget Categories and Transactions. In future, access will grow automatically as your contributions build reputation.
-3. **Pick a task.** Ask what's open, or take one from the current list. Each task names its source document and the lines to copy.
-4. **Have the source document open.** Every number you enter must come from a published document you can name.
-
-## Choose how to enter records
-
-| Method | Good for | Watch out for |
-|---|---|---|
-| **Type it into Corteza** | A handful of records | Slow for anything large. |
-| **Corteza's built-in CSV import** | Budget Categories, Items, people, anything without automation | **Don't use it for Transactions.** It skips the automation that creates Ledger entries, so imported Transactions never appear on the chart. |
-| **DD's bulk importer script** | Transactions, and any large batch | Needs Python and a sign-in token (below). |
-| **Corteza's export** | Seeing what's already there, checking for duplicates, keeping a backup before a big load | Export first if you're unsure whether something exists. |
-
-Corteza's import and export appear on a module's record list. In an import, a field that points to another record (like a parent category) needs that record's ID, not its name. That's one reason the bulk importer exists: it looks IDs up from names for you.
-
-## How a spending branch is built
+## How a spending/revenue branch is built
 
 Each branch follows the same pattern, so the chart stays consistent:
 
@@ -53,6 +35,28 @@ Function            Social & Family Services        (from the FIR, the province'
 - **From** is the organization's own treasury account.
 - **Department** is set only when a source links the line to that division. Otherwise leave it blank.
 - **Description** names the source, the line code and the column, so anyone can check the number.
+
+## Before you start
+
+1. **Create an account.** [Sign up here](https://www.democracydistributed.com). Click on the top right corner profile icon and hit `Create Account`.
+2. **Ask for data-entry access.** Email [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com) with the email you signed up with. You'll be given a role that can create Budget Categories and Transactions. In future, access will grow automatically as your contributions build reputation.
+3. **Pick a task.** Ask what's open. We're trying to build a place where one can see what open tasks are there but is not yet fully developed [Platform Governance Org](https://www.democracydistributed.com/org/394662382766391297)
+4. **Have the source document open.** It's good to have every number we enter come from a published document you can name.
+
+## Detailed Guides
+
+1. [City of Toronto Finances](adding-data-toronto.md)
+
+## Choose how to enter records
+
+| Method | Good for | Watch out for |
+|---|---|---|
+| **Type it into Corteza** | A handful of records | Slow for anything large. |
+| **Corteza's built-in CSV import** | Budget Categories, Items, people, anything without automation | **Don't use it for Transactions.** It skips the automation that creates Ledger entries, so imported Transactions never appear on the chart. |
+| **DD's bulk importer script** | Transactions, and any large batch | Needs Python and a sign-in token (below). |
+| **Corteza's export** | Seeing what's already there, checking for duplicates, keeping a backup before a big load | Export first if you're unsure whether something exists. |
+
+Corteza's import and export appear on a module's record list. In an import, a field that points to another record (like a parent category) needs that record's ID, not its name. That's one reason the bulk importer exists: it looks IDs up from names for you.
 
 ## Using the bulk importer
 
@@ -76,15 +80,13 @@ Each task folder has a `run-….bat` file that walks you through these choices (
 
 - **Before a live run:** export the Budget Category list and search for your category numbers, so you don't create duplicates.
 - **After loading:** open the organization's page, pick the year, and find your branch on the chart. Click a box to see its Transactions.
-- **Totals:** your branch should add up to the source line exactly. If the source and the audited statements differ, don't adjust your numbers. That gap gets its own **Unreported** entry, added by whoever finishes the group.
+- **Totals:** your branch should add up to the source line exactly. If the source and the audited statements differ, don't adjust your numbers.
 
 ## Rules that keep the data trustworthy
 
-- **Never invent a number or a split.** If one line covers two divisions, enter it once, leave Department blank, and name both in the description.
 - **Copy negative numbers as they are.** They're real (usually money that came back).
-- **Leave it blank rather than guess.** That applies to Department, the authorizing decision, and anything else you can't source.
 - **Note anything odd.** A mismatch you report is more useful than one you quietly fix.
 
 ## Questions
 
-Email [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com), or ask in [#proj-democracydistributed](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack.
+Email [ajaymatharoo11@gmail.com](mailto:ajaymatharoo11@gmail.com), or ask in [#proj-dd](https://civictechto.slack.com/archives/C09A5S6B7QE) on the Civic Tech Toronto Slack.
